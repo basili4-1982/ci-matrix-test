@@ -1,0 +1,16 @@
+name: CI
+on:
+  push:
+jobs:
+  job-a:
+    runs-on: ubuntu-latest
+    steps:
+    - name: One
+      run: echo One
+  job-b:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Two
+      run: echo Two
+    - name: Three
+      run: echo Three

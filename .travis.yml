@@ -1,0 +1,8 @@
+language: minimal
+jobs:
+  include:
+  - script:
+    - echo One
+  - script:
+    - echo Two
+    - echo Three
